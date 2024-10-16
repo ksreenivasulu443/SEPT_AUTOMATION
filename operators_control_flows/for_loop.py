@@ -7,11 +7,11 @@
 # ..
 # 5 is odd
 
-# number = int(input("Enter number:"))
-# if number % 2 ==0:
-#     print(f"number {number} is even")
-# else:
-#     print(f"number {number} is odd")
+number = int(input("Enter number:"))
+if number % 2 ==0:
+    print(f"number {number} is even")
+else:
+    print(f"number {number} is odd")
 
 ls = [11, 17, 19, 16, 27, 31, 44, 99, 104]
 
@@ -44,5 +44,7 @@ for j in string:
         print(f"{j} is vowel")
     else:
         print(f"{j} is not vowel")
+
+
 
 
