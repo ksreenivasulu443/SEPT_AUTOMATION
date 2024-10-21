@@ -46,5 +46,11 @@ for j in string:
         print(f"{j} is not vowel")
 
 
+number = int(input("Enter number:"))
+if number % 2 ==0:
+    print(f"number {number} is even")
+else:
+    print(f"number {number} is odd")
+
 
 
