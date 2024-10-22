@@ -1,16 +1,24 @@
-# This is a sample Python script.
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+a = 100
+b = 20
+e= 31
+def out_fun():
+    a = 24
+    c = 21
+    print("e value ", e)
+    print("global variables inside of function", globals())
+    print("local variables inside of function", locals())
+    def inner():
+        k=20
+        c=22
+        print("global variables inside of inner function", globals())
+        print("local variables inside of inner function", locals())
+    inner()
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+out_fun()
+
+print("e value",e)
