@@ -55,8 +55,8 @@ def calc2(a,b,c=0, d=0):
     print("d value",d)
 
 
-calc2(a=10,b=20)
-calc2(a=10,b=20,d=50)
-calc2(a=10,b=20,d=50,c=40)
-calc2(10,20,50,d=40)
+# calc2(a=10,b=20)
+# calc2(a=10,b=20,d=50)
+# calc2(a=10,b=20,d=50,c=40)
+# calc2(10,20,50,d=40)
 
